@@ -1,0 +1,26 @@
+#map-container {
+position: relative;
+}
+
+.marker {
+position: absolute;
+width: 10px;
+height: 10px;
+background-color: red;
+border-radius: 50%;
+cursor: pointer;
+}
+
+#info-box {
+position: absolute;
+top: 10px;
+right: 10px;
+background-color: white;
+padding: 10px;
+border: 1px solid #ccc;
+display: block;
+}
+
+.hidden {
+display: block;
+}
